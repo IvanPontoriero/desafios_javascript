@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    background: radial-gradient(rgba(155, 24, 155, 0.767), rgb(97, 97, 97));
+}
+.body__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1 {
+    font-style: italic;
+    font-size: 7rem;
+    color: lightgray;
+    text-shadow: 0 0 .5rem gray;
+}
+
+p {
+    font-size: 2.3rem;
+    padding: 2rem;
+}
+
+.js--icon {
+    width: 13rem;
+    height: 13rem;
+    -webkit-box-reflect: below 0 linear-gradient(transparent, rgba(255, 255, 255, 0.8));
+}
